@@ -1,4 +1,4 @@
-package com.study._02_DataType;
+package com.study._02_Variable;
 
 public class Variable {
     public static void main(String[] args) {
