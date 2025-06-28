@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/GradeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/Escape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/PersonalNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/StringMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/HelloJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/Print.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/Print.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_02_Variable/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_02_Variable/DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_02_Variable/PersonInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_02_Variable/PersonInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_02_Variable/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_02_Variable/ProductInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_02_Variable/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_02_Variable/Variable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +42,16 @@
   "keyToString": {
     "Application.DataType.executor": "Run",
     "Application.DataTypes.executor": "Run",
+    "Application.Escape.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.Operator2.executor": "Run",
     "Application.Operator3.executor": "Run",
     "Application.PersonInfo.executor": "Run",
+    "Application.PersonalNumber.executor": "Run",
     "Application.PrintStudy.executor": "Run",
+    "Application.StringMethod.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -110,7 +103,7 @@
       <workItem from="1750811541044" duration="559000" />
       <workItem from="1750812108706" duration="2152000" />
       <workItem from="1750815038124" duration="949000" />
-      <workItem from="1751062474510" duration="11341000" />
+      <workItem from="1751062474510" duration="12779000" />
     </task>
     <servers />
   </component>
