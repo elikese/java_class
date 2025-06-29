@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/ElseIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/GradeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/If.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/IfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/Popcorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/Popcorn2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/Switch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/WeekDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_07_For/For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_While/While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_While/DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_09_NestedLoop/NestedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_09_NestedLoop/NestedLoop2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_10_BreakContinue/Break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_10_BreakContinue/Continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_11_Scope/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_11_Scope/Scope2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_12_TypeCasting/Overflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_12_TypeCasting/TypeCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/BankMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/ScannerStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_08_While/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_While/While.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +49,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankMenu.executor": "Run",
+    "Application.Break.executor": "Run",
+    "Application.Continue.executor": "Run",
     "Application.DataType.executor": "Run",
     "Application.DataTypes.executor": "Run",
+    "Application.DoWhile.executor": "Run",
     "Application.Escape.executor": "Run",
     "Application.For.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.If.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.NestedLoop.executor": "Run",
+    "Application.NestedLoop2.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.Operator2.executor": "Run",
     "Application.Operator3.executor": "Run",
+    "Application.Overflow.executor": "Run",
     "Application.PersonInfo.executor": "Run",
     "Application.PersonalNumber.executor": "Run",
     "Application.Popcorn.executor": "Run",
     "Application.Popcorn2.executor": "Run",
     "Application.PrintStudy.executor": "Run",
+    "Application.ScannerStudy.executor": "Run",
+    "Application.Scope2.executor": "Run",
     "Application.StringMethod.executor": "Run",
     "Application.Switch.executor": "Run",
     "Application.Switch2.executor": "Run",
+    "Application.TypeCasting.executor": "Run",
     "Application.WeekDiscount.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -91,7 +103,7 @@
       <module name="java-vacation-class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.*" />
+          <option name="PATTERN" value="com.study._13_Scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,7 +129,7 @@
       <workItem from="1750811541044" duration="559000" />
       <workItem from="1750812108706" duration="2152000" />
       <workItem from="1750815038124" duration="949000" />
-      <workItem from="1751062474510" duration="17403000" />
+      <workItem from="1751062474510" duration="22034000" />
     </task>
     <servers />
   </component>
