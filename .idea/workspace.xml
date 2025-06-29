@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/Escape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/PersonalNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/StringMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/ElseIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/GradeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/If.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/IfElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/Popcorn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/Popcorn2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/Switch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_Switch/WeekDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_07_For/For.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_While/While.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,15 +50,22 @@
     "Application.DataType.executor": "Run",
     "Application.DataTypes.executor": "Run",
     "Application.Escape.executor": "Run",
+    "Application.For.executor": "Run",
     "Application.HelloJava.executor": "Run",
+    "Application.If.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.Operator2.executor": "Run",
     "Application.Operator3.executor": "Run",
     "Application.PersonInfo.executor": "Run",
     "Application.PersonalNumber.executor": "Run",
+    "Application.Popcorn.executor": "Run",
+    "Application.Popcorn2.executor": "Run",
     "Application.PrintStudy.executor": "Run",
     "Application.StringMethod.executor": "Run",
+    "Application.Switch.executor": "Run",
+    "Application.Switch2.executor": "Run",
+    "Application.WeekDiscount.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -103,7 +117,7 @@
       <workItem from="1750811541044" duration="559000" />
       <workItem from="1750812108706" duration="2152000" />
       <workItem from="1750815038124" duration="949000" />
-      <workItem from="1751062474510" duration="12779000" />
+      <workItem from="1751062474510" duration="17403000" />
     </task>
     <servers />
   </component>
