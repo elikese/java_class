@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_While/DoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_09_NestedLoop/NestedLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_09_NestedLoop/NestedLoop2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_10_BreakContinue/Break.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_10_BreakContinue/Continue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_11_Scope/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_11_Scope/Scope2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_12_TypeCasting/Overflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_12_TypeCasting/TypeCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/BankMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/ScannerStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_MultiArray/CoordGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_MultiArray/MultiArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_MultiArray/MultiArrayLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_08_While/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_While/While.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/Intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/Intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_04_String/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_01_Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_04_String/PersonalNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_02_PersonalNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/BankMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/BankMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/ScannerStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/ScannerStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +50,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Array2.executor": "Run",
+    "Application.Array3.executor": "Run",
     "Application.BankMenu.executor": "Run",
     "Application.Break.executor": "Run",
     "Application.Continue.executor": "Run",
+    "Application.CoordGame.executor": "Run",
     "Application.DataType.executor": "Run",
     "Application.DataTypes.executor": "Run",
     "Application.DoWhile.executor": "Run",
@@ -60,6 +64,8 @@
     "Application.HelloJava.executor": "Run",
     "Application.If.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MultiArray.executor": "Run",
+    "Application.MultiArrayLoop.executor": "Run",
     "Application.NestedLoop.executor": "Run",
     "Application.NestedLoop2.executor": "Run",
     "Application.Operator1.executor": "Run",
@@ -129,7 +135,8 @@
       <workItem from="1750811541044" duration="559000" />
       <workItem from="1750812108706" duration="2152000" />
       <workItem from="1750815038124" duration="949000" />
-      <workItem from="1751062474510" duration="22034000" />
+      <workItem from="1751062474510" duration="22942000" />
+      <workItem from="1751231426278" duration="8625000" />
     </task>
     <servers />
   </component>

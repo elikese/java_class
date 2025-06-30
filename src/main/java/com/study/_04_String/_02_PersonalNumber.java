@@ -1,6 +1,6 @@
 package com.study._04_String;
 
-public class PersonalNumber {
+public class _02_PersonalNumber {
     public static void main(String[] args) {
         String id = "990226-1234567";
 

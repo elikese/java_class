@@ -1,6 +1,6 @@
 package com.study._14_Array;
 
-public class Array01 {
+public class Array1 {
     public static void main(String[] args) {
         /*
          * 배열이란?

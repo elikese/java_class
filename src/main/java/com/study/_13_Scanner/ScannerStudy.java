@@ -35,6 +35,7 @@ public class ScannerStudy {
         name = scanner.nextLine();
 
         System.out.println("나이는 " + age + " 이름은 " + name);
+        scanner.close();
 
     }
 

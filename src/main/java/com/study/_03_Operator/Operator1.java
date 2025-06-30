@@ -64,8 +64,8 @@ public class Operator1 {
         System.out.println("a / b = " + div);    // 2 (5÷2=2.5이지만 정수부분만)
 
         // 나머지
-        int mod = a % b;
-        System.out.println("a % b = " + mod);    // 1 (5÷2=2...1)
+        int remain = a % b;
+        System.out.println("a % b = " + remain);    // 1 (5÷2=2...1)
         // 배수판별 할때, 짝수(2로 나눴을때 나머지 0)
         // 3의 배수냐(3으로 나눴을때 나머지0)
         // 10시 + 30시간 -> 10 + (30%24)

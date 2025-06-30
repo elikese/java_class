@@ -1,6 +1,6 @@
 package com.study._04_String;
 
-public class Email {
+public class _01_Email {
     public static void main(String[] args) {
         String email = "student@naver.com";
 

@@ -56,6 +56,7 @@ public class BankMenu {
 
                 case 4:
                     System.out.println("프로그램을 종료합니다.");
+                    scanner.close();
                     return;  // main 메서드 종료
 
                 default:
