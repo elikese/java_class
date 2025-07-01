@@ -8,7 +8,7 @@ public class Switch2 {
         // 표현식(대입연산자로 연산결과가 직접 대입 됨)
         // 장점:
         // 1. break 불필요
-        // 2. 값을 바로 반환
+        // 2. 값을 바로 대입
         // 3. 더 간결한 문법
         int coupon = switch (grade) {
             case "NORMAL" -> 1000;
