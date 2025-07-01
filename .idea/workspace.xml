@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_16_Method/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_16_Method/Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_16_Method/Return.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_01_Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_01_Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_02_PersonalNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_02_PersonalNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_05_If/ElseIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/ElseIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_05_If/If.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/If.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/ScannerStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/ScannerStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
     "Application.HelloJava.executor": "Run",
     "Application.If.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Method1.executor": "Run",
     "Application.MultiArray.executor": "Run",
     "Application.MultiArrayLoop.executor": "Run",
     "Application.NestedLoop.executor": "Run",
@@ -63,11 +62,13 @@
     "Application.Operator2.executor": "Run",
     "Application.Operator3.executor": "Run",
     "Application.Overflow.executor": "Run",
+    "Application.Parameter.executor": "Run",
     "Application.PersonInfo.executor": "Run",
     "Application.PersonalNumber.executor": "Run",
     "Application.Popcorn.executor": "Run",
     "Application.Popcorn2.executor": "Run",
     "Application.PrintStudy.executor": "Run",
+    "Application.Return.executor": "Run",
     "Application.ScannerStudy.executor": "Run",
     "Application.Scope2.executor": "Run",
     "Application.StringMethod.executor": "Run",
@@ -101,7 +102,7 @@
       <module name="java-vacation-class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study._13_Scanner.*" />
+          <option name="PATTERN" value="com.study._10_BreakContinue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +129,7 @@
       <workItem from="1750812108706" duration="2152000" />
       <workItem from="1750815038124" duration="949000" />
       <workItem from="1751062474510" duration="22942000" />
-      <workItem from="1751231426278" duration="12812000" />
+      <workItem from="1751231426278" duration="14753000" />
     </task>
     <servers />
   </component>

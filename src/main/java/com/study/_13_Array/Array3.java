@@ -1,7 +1,6 @@
-package com.study._14_Array;
+package com.study._13_Array;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class Array3 {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package com.study._14_Array;
-
-import java.util.Arrays;
+package com.study._13_Array;
 
 public class Array2 {
     public static void main(String[] args) {

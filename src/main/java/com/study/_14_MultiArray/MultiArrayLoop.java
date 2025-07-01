@@ -1,4 +1,4 @@
-package com.study._15_MultiArray;
+package com.study._14_MultiArray;
 
 public class MultiArrayLoop {
     public static void main(String[] args) {

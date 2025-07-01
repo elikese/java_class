@@ -1,4 +1,4 @@
-package com.study._15_MultiArray;
+package com.study._14_MultiArray;
 
 import java.util.Scanner;
 
