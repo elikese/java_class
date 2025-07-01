@@ -1,4 +1,4 @@
-package com.study._05_If;
+package com.study._06_If;
 
 public class GradeCalculator {
     public static void main(String[] args) {

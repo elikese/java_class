@@ -1,4 +1,4 @@
-package com.study._07_For;
+package com.study._08_For;
 
 public class For {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.study._09_NestedLoop;
+package com.study._08_For;
 
 public class NestedLoop2 {
     public static void main(String[] args) {

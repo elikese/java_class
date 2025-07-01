@@ -1,4 +1,4 @@
-package com.study._06_Switch;
+package com.study._07_Switch;
 
 public class Popcorn2 {
     public static void main(String[] args) {

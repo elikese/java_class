@@ -1,4 +1,4 @@
-package com.study._13_Scanner;
+package com.study._10_BreakContinue;
 
 import java.util.Scanner;
 

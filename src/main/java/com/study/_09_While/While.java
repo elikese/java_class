@@ -1,4 +1,4 @@
-package com.study._08_While;
+package com.study._09_While;
 
 public class While {
     public static void main(String[] args) {

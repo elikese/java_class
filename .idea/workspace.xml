@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_MultiArray/CoordGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_MultiArray/MultiArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_MultiArray/MultiArrayLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/Intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/Intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_03_Operator/Operator3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_04_String/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_01_Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_04_String/PersonalNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_02_PersonalNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/BankMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/BankMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_01_Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_01_Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_02_PersonalNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_04_String/_02_PersonalNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_05_If/ElseIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/ElseIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_05_If/If.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_05_If/If.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/ScannerStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_13_Scanner/ScannerStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_Array/Array1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +75,7 @@
     "Application.Switch2.executor": "Run",
     "Application.TypeCasting.executor": "Run",
     "Application.WeekDiscount.executor": "Run",
+    "Application._01_Email.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -136,7 +128,7 @@
       <workItem from="1750812108706" duration="2152000" />
       <workItem from="1750815038124" duration="949000" />
       <workItem from="1751062474510" duration="22942000" />
-      <workItem from="1751231426278" duration="8625000" />
+      <workItem from="1751231426278" duration="12812000" />
     </task>
     <servers />
   </component>

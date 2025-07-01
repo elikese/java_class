@@ -12,7 +12,11 @@ public class _01_Email {
 
         // 사용자명과 도메인 분리
         String username = email.substring(0, atIndex);
-        String domain = email.substring(atIndex + 1);
+
+        // 도메인 이름 찾기
+        String remain = email.substring(atIndex + 1);
+        int dotIndex = remain.indexOf(".");
+        String domain = remain.substring(0, dotIndex);
 
         System.out.println("사용자명: " + username);
         System.out.println("도메인: " + domain);

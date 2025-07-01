@@ -1,4 +1,4 @@
-package com.study._13_Scanner;
+package com.study._05_Scanner;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class ScannerStudy {
 
         // 문자열 입력받기
         System.out.print("문자열을 입력하세요>> ");
-        String str = scanner.nextLine();  // 한 줄 전체(엔터키 기준)를 읽음
+        String str = scanner.nextLine();  // 한 줄 전체(엔터키 까지)를 읽음
         System.out.println("입력한 문자열: " + str);
 
         // 정수 입력받기
