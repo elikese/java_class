@@ -1,11 +1,16 @@
 package com.study._06_If;
 
+import java.util.Scanner;
+
 public class ElseIf {
     public static void main(String[] args) {
         // if ~ else if ~ else
         // 하나의 조건이 만족되면, 나머지는 검사 안함
         // 오직 하나의 블록만 실행 됨
-        int age = 14;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("나이를 입력하세요");
+        int age = scanner.nextInt();
 
         if (age <= 7) {
             System.out.println("미취학");

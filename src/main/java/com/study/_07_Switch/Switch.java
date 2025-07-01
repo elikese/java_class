@@ -18,7 +18,7 @@ public class Switch {
         switch (ranking) {
             case 1:
                 System.out.println("전액 장학금!!");
-                break;
+                break; // break switch문(중괄호) 탈출
             case 2:
                 System.out.println("반액 장학금!!");
                 break;
@@ -31,7 +31,7 @@ public class Switch {
         System.out.println("수여 끝~");
 
 
-        // break로 여러 case에 대해 조절 가능
+        // break로 case 여러개에 대해 같은 분기 가능
         switch (ranking) {
             case 1:
                 System.out.println("전액 장학금!!");
