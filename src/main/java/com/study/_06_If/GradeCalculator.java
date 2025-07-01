@@ -1,10 +1,12 @@
 package com.study._06_If;
 
+import java.util.Scanner;
+
 public class GradeCalculator {
     public static void main(String[] args) {
 
         /*
-        학생의 점수를 기반으로 성적 등급을 판정하고, 장학금 대상 여부를 출력하는 프로그램을 작성하세요.
+        Scanner로 점수를 입력 받아 성적 등급을 판정하고, 장학금 대상 여부를 출력하는 프로그램을 작성하세요.
 
         1. 점수에 따라 **등급(grade)**을 판정합니다:
         점수 범위	등급
@@ -21,7 +23,9 @@ public class GradeCalculator {
         등급: B
         장학금 대상입니다!
          */
-        int score = 87;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("성적을 입력하세요 >");
+        int score = scanner.nextInt();
         String grade;
 
         // 성적에 따른 등급 부여

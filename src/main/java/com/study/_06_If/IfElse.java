@@ -6,6 +6,7 @@ public class IfElse {
 
         //키가 120 이상이어야 탑승 가능
         int height = 120;
+
         if (height >= 120) {
             System.out.println("탑승 가능");
         } else {
