@@ -2,8 +2,8 @@ package com.study._10_BreakContinue;
 
 public class Break {
     public static void main(String[] args) {
-        //반복문 - break, continue
-        //break - 특정 상황(조건)에서 반복문을 빠져나옴
+        // 반복문 - break, continue
+        // break - 반복문(for 혹은 while의 중괄호)를 한번 빠져나옴
 
         // 맛집 웨이팅 50명
         // 판매 가능한 갯수 10개

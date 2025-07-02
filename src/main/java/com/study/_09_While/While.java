@@ -1,5 +1,8 @@
 package com.study._09_While;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class While {
     public static void main(String[] args) {
         /*
@@ -32,5 +35,25 @@ public class While {
         }
 
         System.out.println("최종 합계: " + sum);
+
+
+        // 스캐너 객체생성
+        Scanner scanner = new Scanner(System.in);
+
+        // 랜덤 객체생성
+        Random random = new Random();
+
+        int num = random.nextInt(1,10);   // 1이상 10미만 중 랜덤
+        int data = 0;
+
+        while(num != data) {
+            System.out.print("입력: ");
+            data = scanner.nextInt();
+            if(num == data) {
+                System.out.println("정답은 " + data + "입니다.");
+            } else {
+                System.out.println("틀렸습니다. 다시 입력하세요.");
+            }
+        }
     }
 }

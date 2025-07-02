@@ -2,8 +2,8 @@ package com.study._08_For;
 
 public class For {
     public static void main(String[] args) {
-        //반복문 - for
-        // for ( 선언; 조건; 증감 ) {
+        // 반복문 - for
+        // for (변수 선언; 조건식; 증감식 ) {
         //      반복될 코드
         // }
 
@@ -20,15 +20,15 @@ public class For {
 
         System.out.println("==================================");
 
-        //1~10까지 출력, 짝수만 출력
-        //첫번째 방법, 근데 이제 if문을 곁들인
+        // 1~10까지 출력, 짝수만 출력
+        // 첫번째 방법, 근데 이제 if문을 곁들인
         for (int i = 1; i <= 10; i++) {
             if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
 
-        //두번째 방법
+        // 두번째 방법
         for (int i = 2; i <= 10; i += 2) {
             System.out.println(i);
         }

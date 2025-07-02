@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_For/Gugudan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_09_While/UpDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_06_If/GradeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_06_If/GradeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_08_For/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_For/For.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_08_For/NestedLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_For/NestedLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_08_For/NestedLoop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_08_For/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_09_While/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_09_While/DoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_09_While/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_09_While/While.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_10_BreakContinue/Break.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_10_BreakContinue/Break.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_10_BreakContinue/Continue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_10_BreakContinue/Continue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +83,7 @@
     "Application.Switch2.executor": "Run",
     "Application.TypeCasting.executor": "Run",
     "Application.WeekDiscount.executor": "Run",
+    "Application.While.executor": "Run",
     "Application._01_Email.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -128,7 +137,7 @@
       <workItem from="1750812108706" duration="2152000" />
       <workItem from="1750815038124" duration="949000" />
       <workItem from="1751062474510" duration="22942000" />
-      <workItem from="1751231426278" duration="15939000" />
+      <workItem from="1751231426278" duration="21490000" />
     </task>
     <servers />
   </component>

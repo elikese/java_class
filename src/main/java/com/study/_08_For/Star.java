@@ -1,6 +1,6 @@
 package com.study._08_For;
 
-public class NestedLoop2 {
+public class Star {
     public static void main(String[] args) {
         // 네모 별 찍기
         // *****
@@ -33,6 +33,7 @@ public class NestedLoop2 {
 
         System.out.println();
 
+        // 실습
         //*****
         //****
         //***
