@@ -14,7 +14,7 @@ public class While {
          */
 
         // for문이 적합한 경우 - 횟수가 명확
-        // while문이 적합한 경우 - 조건 중심
+        // while문이 적합한 경우 - 횟수가 불명확, 조건 중심
 
         int count = 0;
 
