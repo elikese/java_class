@@ -3,9 +3,8 @@ package com.study._12_TypeCasting;
 public class TypeCasting {
     public static void main(String[] args) {
         // 형변환 = 데이터 타입을 다른 타입으로 변경하는 것
-        // 마치 물을 다른 크기의 컵에 옮겨 담는 것과 같음
-        // 큰 컵 → 작은 컵: 넘칠 수 있음 -> 데이터 유실 가능성 있음 (명시적 형변환 필요)
-        // 작은 컵 → 큰 컵: 안전함 -> 데이터 유실 가능성 없음 (자동 형변환)
+        // 큰 -> 작은: 넘칠 수 있음 -> 데이터 유실 가능성 있음 (명시적 형변환 필요)
+        // 작은 → 큰: 안전함 -> 데이터 유실 가능성 없음 (자동 형변환)
 
         // 작은 범위 → 큰 범위 (자동으로 변환됨)
         int intValue = 10;
@@ -28,8 +27,6 @@ public class TypeCasting {
         doubleValue = 1.5;
         // 자동 변환 불가 - 컴파일 오류
 //        intValue = doubleValue;
-
-
         // 명시적 형변환 필요
         intValue = (int) doubleValue;  // 1.5 → 1 (소수점 버림!) -> 데이터유실
         System.out.println("intValue = " + intValue);

@@ -35,6 +35,6 @@ public class MultiArray {
         System.out.println(seats[2][3]);
 
 
-        System.out.println(Arrays.deepToString(seats)); // 2차원 배열 String출력
+        System.out.println(Arrays.deepToString(seats)); // n차원 배열 String출력
     }
 }

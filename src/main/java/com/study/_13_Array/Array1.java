@@ -12,17 +12,17 @@ public class Array1 {
 
         // ========== 배열 없이 학생 점수 관리 ==========
         // 변수 5개를 각각 선언 - 번거롭고 관리하기 어려움
-        int student1 = 90;
-        int student2 = 80;
-        int student3 = 70;
-        int student4 = 60;
-        int student5 = 50;
+        int student0 = 90;
+        int student1 = 80;
+        int student2 = 70;
+        int student3 = 60;
+        int student4 = 50;
 
-        System.out.println("학생1 점수: " + student1);
-        System.out.println("학생2 점수: " + student2);
-        System.out.println("학생3 점수: " + student3);
-        System.out.println("학생4 점수: " + student4);
-        System.out.println("학생5 점수: " + student5);
+        System.out.println("학생1 점수: " + student0);
+        System.out.println("학생2 점수: " + student1);
+        System.out.println("학생3 점수: " + student2);
+        System.out.println("학생4 점수: " + student3);
+        System.out.println("학생5 점수: " + student4);
 
 
         // ========== 배열로 학생 점수 관리 ==========
