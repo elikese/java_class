@@ -23,8 +23,10 @@ public class Parameter2 {
         // 같다!
         // 자바에서 변수에 변수를 대입할때, 변수의 값(stack메모리)을 항상 복사해서 대입.
         /*
-        stack
+        stack(main)
         num : 10
+        --------------------
+        stack(changeNumber)
         number : 10 -> 12
          */
 
@@ -34,8 +36,10 @@ public class Parameter2 {
         changeArray(nums);
         System.out.println("changeArray 호출 후: " + Arrays.toString(nums));
         /*
-        stack
+        stack(main)
         nums : 0x0010
+        --------------------
+        stack(changeArray)
         arr : 0x0010
 
         heap

@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_01_Print/Printf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_MultiArray/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_MultiArray/WorkHour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/BMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Parameter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/StudentScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_16_Overloading/Overloading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_14_MultiArray/MultiArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_14_MultiArray/MultiArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Parameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Parameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Parameter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Parameter2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Return.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_15_Method/Return.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +138,7 @@
       <workItem from="1750815038124" duration="949000" />
       <workItem from="1751062474510" duration="22942000" />
       <workItem from="1751231426278" duration="21751000" />
-      <workItem from="1751526457033" duration="13584000" />
+      <workItem from="1751526457033" duration="15053000" />
     </task>
     <servers />
   </component>

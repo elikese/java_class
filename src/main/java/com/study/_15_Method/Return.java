@@ -33,4 +33,9 @@ public class Return {
         int addResult2 = add(10, add(10,20));
         System.out.println(addResult2);
     }
+    /*
+        1. 메서드 즉시 종료
+        2. 호출한 곳으로 값 전달 (void가 아닌 경우)
+        3. 메모리 정리 (지역 변수(범위가 함수내부인 것들) 소멸)
+     */
 }
