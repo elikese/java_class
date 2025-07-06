@@ -16,7 +16,6 @@ public class Parameter {
 
         int a = 10, b = 20;
         printAddValue(a, b);
-
     }
 
 }

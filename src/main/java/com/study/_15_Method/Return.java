@@ -2,7 +2,7 @@ package com.study._15_Method;
 
 public class Return {
 
-    // void 가 아니라 return되는 data의 자료형을 적어 줌
+    // 리턴값이 존재한다면 void대신 리턴되는 data의 자료형을 적어 줌
     public static int add(int num1, int num2) {
         int result = num1 + num2;
         return result; // return이 되면 함수 종료
@@ -25,6 +25,11 @@ public class Return {
     public static void main(String[] args) {
         int addResult = add(10, 20); // addResult에 return이 대입 됨
         System.out.println(addResult);
+
+        // return이 있는 함수의 경우,
+        // 리턴되는 data가 값이라면 값, 객체라면 객체로 다룰 수 있다.
+        System.out.println(add(10,20));
+
         int addResult2 = add(10, add(10,20));
         System.out.println(addResult2);
     }

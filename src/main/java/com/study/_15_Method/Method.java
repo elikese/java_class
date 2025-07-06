@@ -2,11 +2,11 @@ package com.study._15_Method;
 
 public class Method {
 
-    // public(접근 제어자): 다른 클래스에서도 호출 가능 (나중에)
+    // public(접근 제한자): 다른 클래스에서도 호출 가능 (나중에)
     // static: 객체 생성 없이 호출 가능 (나중에)
     // void -> 리턴 없음
     public static void greeting() { // 매개변수 없음, 리턴 없음
-        System.out.println("hello");
+        System.out.println("안녕하세요!");
     }
 
     public static void main(String[] args) {
@@ -18,7 +18,6 @@ public class Method {
          *
          * 주의 사항) 함수 정의와 호출을 헷갈리지 말자
          */
-
 
         System.out.println("함수 호출 전");
         greeting();
