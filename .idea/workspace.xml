@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_17_Class/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_17_Class/ClassMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_17_Class/ClassMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_17_Class/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/CarStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/OOPMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/OOPMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_16_Overloading/Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_16_Overloading/Overloading.java" afterDir="false" />
     </list>
@@ -153,7 +146,7 @@
       <workItem from="1750815038124" duration="949000" />
       <workItem from="1751062474510" duration="22942000" />
       <workItem from="1751231426278" duration="21751000" />
-      <workItem from="1751526457033" duration="24488000" />
+      <workItem from="1751526457033" duration="24736000" />
     </task>
     <servers />
   </component>

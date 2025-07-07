@@ -59,8 +59,8 @@ public class Overloading {
         //문자열 이름, 정수 나이 전달 => 이름 나이 출력
         //문자열 이름, 정수 나이, 문자열 이메일 => 이름 나이 이메일 출력
         printInfo("홍길동");
-        printInfo("홍길동", 33);
-        printInfo("홍길동", 33, "java@naver.com");
+        printInfo("홍길동", 30);
+        printInfo("홍길동", 30, "java@naver.com");
 
 
         printNum(1);
@@ -71,7 +71,6 @@ public class Overloading {
         // 1. 정확히 매칭되는 시그니처를 찾는다.
         // 없으면,
         // 2. 자동 형변환이 가능한 시그니처를 찾는다.
-
 
     }
 }
