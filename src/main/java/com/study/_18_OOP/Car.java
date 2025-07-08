@@ -3,6 +3,7 @@ package com.study._18_OOP;
 public class Car {
     int speed;
     boolean engineOn;
+    // boolean -> 초기화안하고 선언만 했을때(기본값:false)
 
     void engineStart() {
         engineOn = true;

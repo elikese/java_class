@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_19_Constructor/ConstructorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_19_Constructor/NoConstructorStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_19_Constructor/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_19_Constructor/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_19_Constructor/book/BookMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/phone/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/phone/PhoneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_20_Access/access.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_20_Access/bottle/WaterBottle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/CarStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/OOPMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/OOPMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/OOPMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/OOPMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_18_OOP/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +78,7 @@
     "Application.ParameterAndReturn.executor": "Run",
     "Application.PersonInfo.executor": "Run",
     "Application.PersonalNumber.executor": "Run",
+    "Application.PhoneMain.executor": "Run",
     "Application.Popcorn.executor": "Run",
     "Application.Popcorn2.executor": "Run",
     "Application.PrintStudy.executor": "Run",
@@ -155,7 +153,7 @@
       <workItem from="1751062474510" duration="22942000" />
       <workItem from="1751231426278" duration="21751000" />
       <workItem from="1751526457033" duration="26435000" />
-      <workItem from="1752009731798" duration="3645000" />
+      <workItem from="1752009731798" duration="5691000" />
     </task>
     <servers />
   </component>
