@@ -1,6 +1,6 @@
 package com.study._18_OOP;
 
-public class CarStatus {
+public class Car {
     int speed;
     boolean engineOn;
 

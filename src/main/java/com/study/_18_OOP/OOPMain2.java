@@ -2,7 +2,7 @@ package com.study._18_OOP;
 
 public class OOPMain2 {
     public static void main(String[] args) {
-        CarStatus car = new CarStatus();
+        Car car = new Car();
 
         // 진짜 자동차 운전하는 것처럼!
         car.engineStart();
@@ -17,8 +17,8 @@ public class OOPMain2 {
             // 세상의 모든 것을 속성(데이터) + 기능(메서드)으로 추상화
 
         // 자동차 객체:
-            // 속성: 속도, 시동상태, 연료량, 색상
-            // 기능: 시동걸기(), 가속하기(), 브레이크(), 문열기()
+            // 속성: 속도, 시동상태
+            // 기능: 시동걸기(), 가속하기(), 브레이크()
 
         // 게임 캐릭터 객체:
             // 속성: 레벨, 경험치, HP, 아이템

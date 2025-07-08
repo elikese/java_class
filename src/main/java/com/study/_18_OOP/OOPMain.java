@@ -14,6 +14,8 @@ public class OOPMain {
 
         객체간 상호작용 중심 "무엇이?"
          */
+        
+        // 절차지향 코드
 
         int speed = 0;
         boolean engineOn = false;
