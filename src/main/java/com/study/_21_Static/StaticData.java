@@ -1,4 +1,4 @@
-package com.study._21_static;
+package com.study._21_Static;
 
 public class StaticData {
     private int id;

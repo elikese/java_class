@@ -1,4 +1,4 @@
-package com.study._21_static.ticket;
+package com.study._21_Static.ticket;
 
 public class NumberTicketMain {
     public static void main(String[] args) {

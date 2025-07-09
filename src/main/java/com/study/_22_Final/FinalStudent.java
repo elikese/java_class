@@ -1,4 +1,4 @@
-package com.study._22_final;
+package com.study._22_Final;
 
 public class FinalStudent {
     // final 필드 (한 번 초기화되면 변경 불가)

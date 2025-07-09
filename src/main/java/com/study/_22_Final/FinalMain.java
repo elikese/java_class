@@ -1,4 +1,4 @@
-package com.study._22_final;
+package com.study._22_Final;
 
 public class FinalMain {
     public static void main(String[] args) {

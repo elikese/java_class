@@ -1,4 +1,4 @@
-package com.study._21_static.ticket;
+package com.study._21_Static.ticket;
 
 public class Reception {
     private NumberTicket[] waitingList = new NumberTicket[100];  // 최대 100명

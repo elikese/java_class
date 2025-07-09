@@ -1,4 +1,4 @@
-package com.study._21_static.ticket;
+package com.study._21_Static.ticket;
 
 public class NumberTicket {
     private static int nextNum = 1;  // static → 모든 객체가 공유
