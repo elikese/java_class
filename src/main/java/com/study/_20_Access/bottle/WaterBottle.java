@@ -3,6 +3,10 @@ package com.study._20_Access.bottle;
 public class WaterBottle {
     private int currentWater;
 
+    public WaterBottle (int currentWater) {
+        this.currentWater = currentWater;
+    }
+
     public void fill(int amount) {
         if(amount > 0 && currentWater + amount <= 1000) {
             currentWater += amount;
