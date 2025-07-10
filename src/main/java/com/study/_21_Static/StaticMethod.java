@@ -63,6 +63,6 @@ public class StaticMethod {
     반대로 instance 메서드는 객체가 생성된 후에 호출되므로,
        static 멤버든 instance 멤버든 모두 접근이 가능하다.
        (this도 있고, static도 클래스 단위로 항상 존재하므로)
- */
+    */
 
 }
