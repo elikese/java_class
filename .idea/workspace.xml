@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_21_Static/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_21_Static/user/UserMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_22_Final/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_22_Final/ConstantMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_23_OOP2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_23_OOP2/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_23_OOP2/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_23_OOP2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_23_OOP2/library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_23_OOP2/library/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_23_OOP2/library/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_23_OOP2/library/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/GasCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_21_Static/StaticMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_21_Static/StaticMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_22_Final/FinalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_22_Final/FinalMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_22_Final/FinalStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_22_Final/FinalStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,93 +37,93 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Array2.executor": "Run",
-    "Application.Array3.executor": "Run",
-    "Application.BMI.executor": "Run",
-    "Application.BankMenu.executor": "Run",
-    "Application.Break.executor": "Run",
-    "Application.ClassMain.executor": "Run",
-    "Application.ClassMain2.executor": "Run",
-    "Application.ConstantMain.executor": "Run",
-    "Application.ConstructorMain.executor": "Run",
-    "Application.Continue.executor": "Run",
-    "Application.CoordGame.executor": "Run",
-    "Application.DataType.executor": "Run",
-    "Application.DataTypes.executor": "Run",
-    "Application.DoWhile.executor": "Run",
-    "Application.ElseIf.executor": "Run",
-    "Application.Escape.executor": "Run",
-    "Application.For.executor": "Run",
-    "Application.HelloJava.executor": "Run",
-    "Application.If.executor": "Run",
-    "Application.Inventory.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Method1.executor": "Run",
-    "Application.MonthlySales.executor": "Run",
-    "Application.MultiArray.executor": "Run",
-    "Application.MultiArrayLoop.executor": "Run",
-    "Application.NestedLoop.executor": "Run",
-    "Application.NestedLoop2.executor": "Run",
-    "Application.NumberTicketMain.executor": "Run",
-    "Application.OOPMain2.executor": "Run",
-    "Application.Operator1.executor": "Run",
-    "Application.Operator2.executor": "Run",
-    "Application.Operator3.executor": "Run",
-    "Application.Overflow.executor": "Run",
-    "Application.Overloading.executor": "Run",
-    "Application.Parameter.executor": "Run",
-    "Application.Parameter2.executor": "Run",
-    "Application.ParameterAndReturn.executor": "Run",
-    "Application.PersonInfo.executor": "Run",
-    "Application.PersonalNumber.executor": "Run",
-    "Application.PhoneMain.executor": "Run",
-    "Application.Popcorn.executor": "Run",
-    "Application.Popcorn2.executor": "Run",
-    "Application.PrintStudy.executor": "Run",
-    "Application.Printf.executor": "Run",
-    "Application.Return.executor": "Run",
-    "Application.ScannerStudy.executor": "Run",
-    "Application.Scope2.executor": "Run",
-    "Application.SpeakerMain.executor": "Run",
-    "Application.StaticMain.executor": "Run",
-    "Application.StringMethod.executor": "Run",
-    "Application.StudentScore.executor": "Run",
-    "Application.Switch.executor": "Run",
-    "Application.Switch2.executor": "Run",
-    "Application.TypeCasting.executor": "Run",
-    "Application.UserMain.executor": "Run",
-    "Application.WaterBottleMain.executor": "Run",
-    "Application.WeekDiscount.executor": "Run",
-    "Application.While.executor": "Run",
-    "Application._01_Email.executor": "Run",
-    "Application.com.study._23_OOP2.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/aws/java-vacation-class",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Array2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BMI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Break.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstantMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructorMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Continue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoordGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataType.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElseIf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Escape.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.If.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inventory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonthlySales.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiArrayLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedLoop2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberTicketMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OOPMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operator1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operator2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operator3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overflow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overloading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Parameter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Parameter2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParameterAndReturn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PersonInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PersonalNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PhoneMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Popcorn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Popcorn2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintStudy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Printf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Return.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScannerStudy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Scope2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpeakerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentScore.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Switch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Switch2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TypeCasting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaterBottleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeekDiscount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.While.executor&quot;: &quot;Run&quot;,
+    &quot;Application._01_Email.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.study._23_OOP2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/aws/java-vacation-class&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.study._18_Class2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.Main" />
       <module name="java-vacation-class" />
@@ -186,7 +174,8 @@
       <workItem from="1751231426278" duration="21751000" />
       <workItem from="1751526457033" duration="26435000" />
       <workItem from="1752009731798" duration="16702000" />
-      <workItem from="1752148693374" duration="11132000" />
+      <workItem from="1752148693374" duration="11404000" />
+      <workItem from="1752188881574" duration="298000" />
     </task>
     <servers />
   </component>
