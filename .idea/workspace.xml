@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/PowerButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/AirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/AirConditioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Styler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Styler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +102,7 @@
     "Application._01_Email.executor": "Run",
     "Application.com.study._23_OOP2.Main.executor": "Run",
     "Application.com.study._24_Inheritance.Main.executor": "Run",
+    "Application.com.study._24_Inheritance.animal.Main.executor": "Run",
     "Application.com.study._25_Casting.iot.Main.executor": "Run",
     "Application.com.study._26_Abstract.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -188,7 +185,7 @@
       <workItem from="1752009731798" duration="16702000" />
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
-      <workItem from="1752190310360" duration="23998000" />
+      <workItem from="1752190310360" duration="24754000" />
     </task>
     <servers />
   </component>
