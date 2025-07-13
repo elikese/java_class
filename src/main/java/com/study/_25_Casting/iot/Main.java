@@ -10,7 +10,7 @@ public class Main {
         AirConditioner ac2 = new AirConditioner("AC002");
         Styler styler1 = new Styler("ST001");
 
-
+        // 기기 추가
         manager.addDevice(ac1);
         manager.addDevice(ac2);
         manager.addDevice(styler1);
@@ -19,8 +19,22 @@ public class Main {
         manager.powerOnAll();
         manager.operateAll();
 
-        // instanceof를 활용한 타입별 제어
-        manager.controlByType();
+        // 개별 작동
+        styler1 = (Styler) manager.getDevice("ST001");
+        styler1.setCourse(Styler.STANDARD);
+        styler1.doProgress();
+        styler1.doProgress();
+        styler1.doProgress();
+        styler1.showStatus();
+
+
+        // 특정 기기들만 작동
+        AirConditioner[] acs = manager.getAirConditioners();
+        for (AirConditioner ac : acs) {
+            ac.setMode(AirConditioner.COLD);
+            ac.setTemperature(24);
+            ac.operate();
+        }
 
         // 다시 동작시켜서 설정 변경 확인
         manager.operateAll();

@@ -3,11 +3,14 @@ package com.study._25_Casting.iot;
 public class AirConditioner extends IoTDevice {
     private int temperature;
     private String mode;  // "냉방", "송풍"
+    public static final String COLD = "냉방";
+    public static final String WIND = "송풍";
+
 
     public AirConditioner(String deviceId) {
         super(deviceId, "스마트 에어컨");
         this.temperature = 24;
-        this.mode = "냉방";
+        this.mode = COLD;
     }
 
     @Override

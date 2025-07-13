@@ -54,7 +54,7 @@ public class IoTManager {
     }
 
     // 특정 기기 찾기 (ID로)
-    public IoTDevice findDevice(String deviceId) {
+    public IoTDevice getDevice(String deviceId) {
         for (int i = 0; i < deviceCount; i++) {
             if (devices[i].deviceId.equals(deviceId)) {
                 return devices[i];
@@ -63,20 +63,42 @@ public class IoTManager {
         return null;
     }
 
-    // instanceof를 사용한 타입별 제어
-    public void controlByType() {
-        System.out.println("\n=== 타입별 특화 제어 ===");
+    public AirConditioner[] getAirConditioners() {
+        int count = 0;
         for (int i = 0; i < deviceCount; i++) {
-            IoTDevice device = devices[i];
-
-            if (device instanceof AirConditioner) {
-                AirConditioner ac = (AirConditioner) device;
-                ac.setTemperature(22);
-                ac.setMode("냉방");
-            } else if (device instanceof Styler) {
-                Styler styler = (Styler) device;
-                styler.setCourse("셔츠");
+            if (devices[i] instanceof AirConditioner) {
+                count++;
             }
         }
+
+        AirConditioner[] result = new AirConditioner[count];
+        int index = 0;
+        for (int i = 0; i < deviceCount; i++) {
+            if (devices[i] instanceof AirConditioner) {
+                result[index++] = (AirConditioner) devices[i];
+            }
+        }
+
+        return result;
     }
+
+    public Styler[] getStylers() {
+        int count = 0;
+        for (int i = 0; i < deviceCount; i++) {
+            if (devices[i] instanceof Styler) {
+                count++;
+            }
+        }
+
+        Styler[] result = new Styler[count];
+        int index = 0;
+        for (int i = 0; i < deviceCount; i++) {
+            if (devices[i] instanceof Styler) {
+                result[index++] = (Styler) devices[i];
+            }
+        }
+
+        return result;
+    }
+
 }

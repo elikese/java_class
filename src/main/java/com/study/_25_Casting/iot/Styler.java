@@ -2,11 +2,16 @@ package com.study._25_Casting.iot;
 
 public class Styler extends IoTDevice{
     private String course;     // 코스 ("표준", "셔츠", "울", "담요")
+    public static final String STANDARD = "표준";
+    public static final String SHIRTS = "셔츠";
+    public static final String WOOL = "울";
+    public static final String BLANKET = "담요";
+
     private int timeLeft;      // 남은 시간 (분)
 
     public Styler(String deviceId) {
         super(deviceId, "스마트 스타일러");
-        this.course = "표준";
+        this.course = STANDARD;
         this.timeLeft = 0;
     }
 
@@ -41,6 +46,7 @@ public class Styler extends IoTDevice{
             if (timeLeft <= 0) {
                 System.out.println("[" + deviceName + "] 스타일링 완료!");
                 timeLeft = 0;
+                isPowerOn = false;
             } else {
                 System.out.println("[" + deviceName + "] 남은 시간: " + timeLeft + "분");
             }
@@ -53,13 +59,13 @@ public class Styler extends IoTDevice{
     // 내부 수치에 대해서는 private로 감춘다.
     private int getCourseTime(String course) {
         switch (course) {
-            case "표준":
+            case STANDARD:
                 return 30;
-            case "셔츠":
+            case SHIRTS:
                 return 20;
-            case "울":
+            case WOOL:
                 return 40;
-            case "담요":
+            case BLANKET:
                 return 60;
             default:
                 return 30;
