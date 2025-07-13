@@ -13,11 +13,11 @@ public class Styler extends IoTDevice{
     @Override
     public void operate() {
         if (!isPowerOn) {
-            System.out.println("[" + deviceName + "] 전원이 꺼져있습니다");
+            System.out.println(deviceName + ": 전원이 꺼져있습니다");
             return;
         }
         if (timeLeft > 0) {
-            System.out.println("[" + deviceName + "] 이미 동작 중입니다. 남은 시간: " + timeLeft + "분");
+            System.out.println(deviceName + ": 이미 동작 중입니다. 남은 시간: " + timeLeft + "분");
             return;
         }
         this.timeLeft = getCourseTime(course);
@@ -34,7 +34,8 @@ public class Styler extends IoTDevice{
         System.out.println("[" + deviceName + "] " + course + " 코스로 설정");
     }
 
-    public void checkProgress() {
+    // 스타일러만의 고유 기능
+    public void doProgress() {
         if (timeLeft > 0) {
             timeLeft -= 10;  // 10분씩 감소
             if (timeLeft <= 0) {
@@ -48,6 +49,8 @@ public class Styler extends IoTDevice{
         }
     }
 
+    // 스타일러만의 고유 기능
+    // 내부 수치에 대해서는 private로 감춘다.
     private int getCourseTime(String course) {
         switch (course) {
             case "표준":

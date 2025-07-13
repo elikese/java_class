@@ -36,9 +36,11 @@ public class IoTDevice {
         return false;
     }
 
-    // 각 기기별로 다르게 동작해야 하는 기능 (오버라이딩 예정)
+    // 차후에 오버라이딩 할 것
     public void operate() {
-        checkIsPowerOff();
-        System.out.println("기본동작 실행");
-    }
+        if (checkIsPowerOff()) {
+            System.out.println("기본 동작으로 실행합니다!");
+        }
+    };
+
 }

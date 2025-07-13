@@ -24,7 +24,7 @@ public class AirConditioner extends IoTDevice {
             return;
         }
         this.temperature = temp;
-        System.out.println("[" + deviceName + "] 온도를 " + temp + "도로 설정");
+        System.out.println(deviceName + ": 온도를 " + temp + "도로 설정");
     }
 
     public void setMode(String mode) {
@@ -32,7 +32,7 @@ public class AirConditioner extends IoTDevice {
             return;
         }
         this.mode = mode;
-        System.out.println("[" + deviceName + "] " + mode + " 모드로 변경");
+        System.out.println(deviceName + ": " + mode + " 모드로 변경");
     }
 
     @Override

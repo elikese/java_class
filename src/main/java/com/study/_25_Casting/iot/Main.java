@@ -3,7 +3,7 @@ package com.study._25_Casting.iot;
 public class Main {
     public static void main(String[] args) {
         // IoT 매니저 생성
-        IoTService manager = new IoTService(10);
+        IoTManager manager = new IoTManager(10);
 
         // 다양한 IoT 기기들 생성 및 등록
         AirConditioner ac1 = new AirConditioner("AC001");

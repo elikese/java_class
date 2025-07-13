@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/car/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/CastingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/AirConditioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Styler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/GameCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Warrior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/car/ElectricCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/GasCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/car/GasCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/AirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/AirConditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Styler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/Styler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,13 +108,15 @@
     "Application._01_Email.executor": "Run",
     "Application.com.study._23_OOP2.Main.executor": "Run",
     "Application.com.study._24_Inheritance.Main.executor": "Run",
+    "Application.com.study._25_Casting.iot.Main.executor": "Run",
+    "Application.com.study._26_Abstract.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/aws/java-vacation-class",
+    "last_opened_file_path": "C:/aws/java-vacation-class/src/main/java/com/study/_26_Abstract",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -134,6 +130,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\aws\java-vacation-class\src\main\java\com\study\_26_Abstract" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.study._18_Class2" />
     </key>
@@ -191,7 +190,7 @@
       <workItem from="1752009731798" duration="16702000" />
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
-      <workItem from="1752190310360" duration="13218000" />
+      <workItem from="1752190310360" duration="19948000" />
     </task>
     <servers />
   </component>

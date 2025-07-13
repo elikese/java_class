@@ -1,10 +1,10 @@
 package com.study._25_Casting.iot;
 
-public class IoTService {
+public class IoTManager {
     private IoTDevice[] devices;
     private int deviceCount;
 
-    public IoTService(int maxDevices) {
+    public IoTManager(int maxDevices) {
         this.devices = new IoTDevice[maxDevices];
         this.deviceCount = 0;
     }
