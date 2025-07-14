@@ -1,9 +1,9 @@
 package com.study._28_OOP3.refactor;
 
-public class KaKaoPayment implements PaymentMethod{
+public class KakaoPayment implements PaymentMethod{
     private String phoneNumber;
 
-    public KaKaoPayment(String phoneNumber) {
+    public KakaoPayment(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 

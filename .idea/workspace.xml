@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/AnimalManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Swimmable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/BadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/CashPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/KaKaoPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/GoodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/NaverPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_24_Inheritance/animal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/CastingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/CastingMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_25_Casting/iot/IoTDevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/GameCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/GameCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_26_Abstract/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_27_Interface/PowerButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/KaKaoPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/KakaoPayment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +59,7 @@
     "Application.ElseIf.executor": "Run",
     "Application.Escape.executor": "Run",
     "Application.For.executor": "Run",
+    "Application.GoodMain.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.If.executor": "Run",
     "Application.Inventory.executor": "Run",
@@ -207,7 +188,7 @@
       <workItem from="1752009731798" duration="16702000" />
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
-      <workItem from="1752190310360" duration="35022000" />
+      <workItem from="1752190310360" duration="36408000" />
     </task>
     <servers />
   </component>
