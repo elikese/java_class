@@ -10,34 +10,23 @@ public abstract class GameCharacter {
 
     protected String name;  // 캐릭터 이름
     protected int HP;       // 체력
-    protected int MP;       // 마나
     protected int attackDamage;  // 기본 공격 데미지
 
-    // 스킬 또한 추상화되어 여러가지 스킬로 분화되어 구현되어야 됨.
-    protected int skillDamage;   // 스킬 공격 데미지
-    protected int skillCost;     // 스킬 마나 소모량
-
     // 생성자 - 모든 캐릭터는 이름과 기본 능력치를 가져야 함
-    public GameCharacter(String name, int HP, int MP, int attackDamage, int skillDamage, int skillCost) {
+    public GameCharacter(String name, int HP, int attackDamage) {
         this.name = name;
         this.HP = HP;
-        this.MP = MP;
         this.attackDamage = attackDamage;
-        this.skillDamage = skillDamage;
-        this.skillCost = skillCost;
     }
 
     // 추상 메서드 - 각 캐릭터마다 공격 방식이 달라야 함
     // 마치 "공격하기" 버튼은 있지만, 구체적인 공격 방법은 캐릭터마다 다름
     public abstract void attack(GameCharacter target);
 
-    // 추상 메서드 - 각 캐릭터마다 스킬 공격이 달라야 함
-    public abstract void useSkill(GameCharacter target);
-
     // 일반 메서드 - 모든 캐릭터가 동일하게 사용
     // 마치 모든 캐릭터가 같은 방식으로 상태를 보여주는 것과 같음
     public void showStatus() {
-        System.out.println(name + " 체력: " + HP + " / 마나: " + MP);
+        System.out.println(name + " 체력: " + HP);
     }
 
     // 데미지를 받는 공통 메서드
@@ -46,14 +35,6 @@ public abstract class GameCharacter {
         if (HP <= 0) {
             HP = 0;
             System.out.println(name + "이(가) 쓰러졌습니다...");
-        }
-    }
-
-    // 마나 소모 공통 메서드
-    public void consumeMP(int mp) {
-        MP -= mp;
-        if (MP < 0) {
-            MP = 0;
         }
     }
 

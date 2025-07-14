@@ -64,11 +64,7 @@ public class CastingMain {
          */
         Car parentCar = new GasCar("아반떼");
 
-        try {
-            ElectricCar wrongCast = (ElectricCar) parentCar;  // 런타임 오류!
-        } catch (ClassCastException e) {
-            System.out.println("오류: GasCar를 ElectricCar로 캐스팅 불가!");
-        }
+        ElectricCar wrongCast = (ElectricCar) parentCar;  // 런타임 오류!
 
         System.out.println("\n=== 4. instanceof - 안전한 다운캐스팅 ===");
 

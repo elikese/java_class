@@ -3,7 +3,7 @@ package com.study._26_Abstract;
 public class Main {
     public static void main(String[] args) {
         // 추상클래스는 직접 인스턴스 생성 불가!
-        // GameCharacter character = new GameCharacter("테스트", 100, 50, 20, 30, 15); // 컴파일 에러!
+        // GameCharacter character = new GameCharacter("테스트", 20); // 컴파일 에러!
 
         // 구체적인 캐릭터들 생성
         Warrior warrior = new Warrior("아서");
@@ -32,12 +32,10 @@ public class Main {
         System.out.println("\n=== 스킬 공격 ===");
 
         // 스킬 사용: 머린이 아서에게 파이어볼
-        mage.useSkill(warrior);
         mage.showStatus(); // 마나 소모 확인
         warrior.showStatus(); // 데미지 확인
 
         // 스킬 사용: 아서가 머린에게 파워 슬래시
-        warrior.useSkill(mage);
         warrior.showStatus(); // 마나 소모 확인
         mage.showStatus(); // 데미지 확인
 
@@ -56,7 +54,6 @@ public class Main {
         2. OCP(open closed principle) - 개방폐쇄원칙
         - 확장에는 열려있고, 수정에는 닫혀있어야 한다.
         => 새로운 기능이 추가될때는, 기존코드는 간섭받지 않는다.
-
          */
 
     }

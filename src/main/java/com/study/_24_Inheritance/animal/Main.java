@@ -11,7 +11,6 @@ public class Main {
 
         Cat cat = new Cat("나비", 2, "검은색");
         cat.eat();
-        cat.sleep();
         cat.meow();
         cat.showInfo();
     }

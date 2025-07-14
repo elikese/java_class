@@ -30,7 +30,7 @@ public class IoTDevice {
 
     public boolean checkIsPowerOff() {
         if (!isPowerOn) {
-            System.out.println(deviceName + "전원이 꺼져있습니다");
+            System.out.println(deviceName + " 전원이 꺼져있습니다");
             return true;
         }
         return false;
