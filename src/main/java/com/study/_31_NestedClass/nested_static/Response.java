@@ -14,8 +14,12 @@ public class Response {
      *
      * static이 붙어있으므로:
      * - Response 인스턴스 없이도 생성 가능
-     * - systemVersion(정적 멤버)에 접근 가능
-     * - success, data 등(인스턴스 멤버)에는 직접 접근 불가
+     * - 바깥 클래스의 static 필드는 접근 가능
+     *
+     * 언제 사용할까?
+     * - 사실상 두개의 클래스를 정의하는 것과 다름없지만,
+     * - 긴밀하게 서로 사용되지만, 서로 생명주기(객체가 메모리에 올라가고 삭제될때까지의 시점)가 다를때
+     * - 논리적으로 서로 응집되어 있지만, 서로 생명주기(객체가 메모리에 올라가고 삭제될때까지의 시점)가 다를때
      */
     public static class Result {
         private String message;
