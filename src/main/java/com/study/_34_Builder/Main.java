@@ -1,6 +1,6 @@
 package com.study._34_Builder;
 
-public class MemberMain {
+public class Main {
     public static void main(String[] args) {
         Member member = new Member.Builder()
                 .age(27)
