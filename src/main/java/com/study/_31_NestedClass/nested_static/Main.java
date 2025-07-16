@@ -1,4 +1,4 @@
-package com.study._31_NestedClass;
+package com.study._31_NestedClass.nested_static;
 
 import com.study._31_NestedClass.nested_static.Response;
 

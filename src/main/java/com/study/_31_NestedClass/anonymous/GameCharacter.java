@@ -1,4 +1,4 @@
-package com.study._26_Abstract;
+package com.study._31_NestedClass.anonymous;
 
 public abstract class GameCharacter {
     // 추상클래스 :

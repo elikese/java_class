@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_30_Wrapper/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_32_Singleton/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_32_Singleton/LogMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_32_Singleton/LogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_33_Factory/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_33_Factory/StudentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_34_Builder/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_34_Builder/MemberMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/LocalClassMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/LocalClassMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/anonymous/GameCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/anonymous/GameCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/anonymous/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/anonymous/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/anonymous/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/anonymous/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/nested_inner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/nested_inner/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/nested_inner/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/nested_inner/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/nested_static/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/nested_static/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/nested_static/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_31_NestedClass/nested_static/Response.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +75,9 @@
     "Application.HelloJava.executor": "Run",
     "Application.If.executor": "Run",
     "Application.Inventory.executor": "Run",
+    "Application.LogMain.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MemberMain.executor": "Run",
     "Application.Method1.executor": "Run",
     "Application.MonthlySales.executor": "Run",
     "Application.MultiArray.executor": "Run",
@@ -107,6 +123,8 @@
     "Application.com.study._25_Casting.iot.Main.executor": "Run",
     "Application.com.study._26_Abstract.Main.executor": "Run",
     "Application.com.study._27_Interface.Main.executor": "Run",
+    "Application.com.study._30_Wrapper.Main.executor": "Run",
+    "Application.com.study._31_NestedClass.anonymous.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -131,6 +149,7 @@
       <recent name="C:\aws\java-vacation-class\src\main\java\com\study\_26_Abstract" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study._31_NestedClass.anonymous" />
       <recent name="com.study._18_Class2" />
     </key>
   </component>
@@ -187,7 +206,8 @@
       <workItem from="1752009731798" duration="16702000" />
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
-      <workItem from="1752190310360" duration="49591000" />
+      <workItem from="1752190310360" duration="51376000" />
+      <workItem from="1752678207213" duration="9980000" />
     </task>
     <servers />
   </component>
