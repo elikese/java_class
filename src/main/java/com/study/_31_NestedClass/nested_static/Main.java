@@ -21,7 +21,7 @@ public class Main {
         /*
          * 2. 정적 메서드 활용
          */
-        System.out.println("\n2. 정적 메서드 활용:");
+        System.out.println("2. 정적 메서드 활용:");
 
         Response.Result successResult = Response.Result.createSuccess();
         Response.Result errorResult = Response.Result.createError();
@@ -33,7 +33,7 @@ public class Main {
         /*
          * 3. 실제 Response 객체 생성 및 사용
          */
-        System.out.println("\n3. 실제 Response 객체 사용:");
+        System.out.println("3. 실제 Response 객체 사용:");
 
         // 성공 응답
         String userData = "사용자 정보";
@@ -47,13 +47,13 @@ public class Main {
         Response.Result failResult = new Response.Result("사용자를 찾을 수 없음", 404);
         Response failResponse = new Response(false, null, failResult);
 
-        System.out.println("\n=== 실패 응답 ===");
+        System.out.println("=== 실패 응답 ===");
         failResponse.printResponse();
 
         /*
          * 4. 정적 중첩 클래스의 독립성 확인
          */
-        System.out.println("\n4. 독립성 확인:");
+        System.out.println("4. 독립성 확인:");
 
         // Response 인스턴스들과 무관하게 Result 생성 가능
         Response.Result independentResult = new Response.Result("독립적 생성", 100);
