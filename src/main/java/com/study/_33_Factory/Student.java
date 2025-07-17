@@ -18,7 +18,7 @@ public class Student {
         this.grade = grade;
     }
 
-    // 1. of() : 단순한 정적 생성
+    // 1. of() : 단순 생성
     public static Student of(String name, int grade) {
         return new Student(name, grade);
     }
