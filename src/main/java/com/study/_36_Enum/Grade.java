@@ -2,8 +2,10 @@ package com.study._36_Enum;
 
 public enum Grade {
 
-    // 생성자임
-    BASIC(10), GOLD(20), DIAMOND(30);
+    // 인스턴스의 이름이지만, 생성자 역할을 함
+    BASIC(10), // BASIC 이란 상수 인스턴스 생성자
+    GOLD(20),
+    DIAMOND(30);
 
     private int discountRate;
 
@@ -11,6 +13,7 @@ public enum Grade {
         this.discountRate = discountRate;
     }
 
+    // 클래스다 보니, 메서드 선언도 가능
     // 할인하는 것 까지 책임 지게 할 수 있음
     public int discount(int price) {
         return price * discountRate / 100;
@@ -37,6 +40,13 @@ public enum Grade {
      * 즉, enum은 Enum클래스를 상속받은
      * 상수용 인스턴스 제조 클래스(컴파일러가 알아서 코드 작성해주는)
      *
-     * 클래스다 보니, 메서드 선언도 가능(생성자도 가능)
+     *
+     * 열거형 권장 사용 시점:
+     * - 상수들이 서로 관련이 있을 때
+     * - 고정된 상수 집합이 필요할 때
+     * - 컴파일 시점에 모든 값을 알 수 있을 때
+     *
+     * 예시: 요일, 계절, 상태값, 등급, 색상 등
+     *
      */
 }
