@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/CheckedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/ExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/InvalidEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/MyCheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/MyUnCheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/UncheckedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/BoxMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/AnimalHospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/list/ArrayListMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_36_Enum/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_36_Enum/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_36_Enum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_36_Enum/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +57,13 @@
   "keyToString": {
     "Application.Array2.executor": "Run",
     "Application.Array3.executor": "Run",
+    "Application.ArrayListMain.executor": "Run",
     "Application.BMI.executor": "Run",
     "Application.BadMain.executor": "Run",
     "Application.BankMenu.executor": "Run",
     "Application.Break.executor": "Run",
     "Application.CastingMain.executor": "Run",
+    "Application.CheckedMain.executor": "Run",
     "Application.ClassMain.executor": "Run",
     "Application.ClassMain2.executor": "Run",
     "Application.ConstantMain.executor": "Run",
@@ -58,6 +75,7 @@
     "Application.DoWhile.executor": "Run",
     "Application.ElseIf.executor": "Run",
     "Application.Escape.executor": "Run",
+    "Application.ExceptionMain.executor": "Run",
     "Application.For.executor": "Run",
     "Application.GoodMain.executor": "Run",
     "Application.HelloJava.executor": "Run",
@@ -100,6 +118,7 @@
     "Application.Switch.executor": "Run",
     "Application.Switch2.executor": "Run",
     "Application.TypeCasting.executor": "Run",
+    "Application.UncheckedMain.executor": "Run",
     "Application.UserMain.executor": "Run",
     "Application.WaterBottleMain.executor": "Run",
     "Application.WeekDiscount.executor": "Run",
@@ -115,6 +134,7 @@
     "Application.com.study._31_NestedClass.anonymous.Main.executor": "Run",
     "Application.com.study._33_Factory.Main.executor": "Run",
     "Application.com.study._36_Enum.Main.executor": "Run",
+    "Application.com.study._37_Exception.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -197,7 +217,7 @@
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
       <workItem from="1752190310360" duration="51376000" />
-      <workItem from="1752678207213" duration="17995000" />
+      <workItem from="1752678207213" duration="30382000" />
     </task>
     <servers />
   </component>
