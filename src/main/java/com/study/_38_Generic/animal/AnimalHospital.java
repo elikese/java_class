@@ -42,5 +42,9 @@ public class AnimalHospital<T extends Animal> {
         return animal;
     }
 
+    public void speak() {
+        animal.sound();
+    }
+
 
 }

@@ -36,23 +36,22 @@ public class WildCardMain {
     public static void checkupWildcard(AnimalHospital<? extends Animal> hospital) {
         System.out.println("와일드카드 메서드로 동물 검진:");
         hospital.checkup();
-        // hospital.setAnimal(new Dog("새 개", 10)); // ❌ 컴파일 오류: 실제 타입이 Dog인지 Cat인지 모르므로 set 불가
+        // hospital.setAnimal(new Dog("새 개", 10)); // 컴파일 오류: 실제 타입이 Dog인지 Cat인지 모르므로 set 불가
     }
 
     // Animal의 하위 타입(Box<Dog>, Box<Cat>)을 받아 안전하게 Animal로 읽기 가능
-    // 와일드카드는 다양한 타입을 하나의 메서드 시그니처로 통합하는 데 유리함
     public static void printAnimalBox(Box<? extends Animal> animalBox) {
         Animal animal = animalBox.get(); // ✅ 읽기 OK (최소한 Animal 보장)
         System.out.println("  동물: " + animal.getName() + " (크기: " + animal.getSize() + ")");
-        // animalBox.set(new Dog("새 개", 10)); // ❌ 컴파일 오류: 정확한 타입을 모르므로 set 불가
+        // animalBox.set(new Dog("새 개", 10)); // 컴파일 오류: 정확한 타입을 모르므로 set 불가
     }
 
     // 하한 경계: Animal 또는 그 하위 타입을 상위 타입(Box<Object>, Box<Animal>)에 안전하게 넣을 수 있음
     // 읽기는 Object로 제한됨
     public static void addAnimalToBox(Box<? super Animal> box, Animal animal) {
-        box.set(animal); // ✅ 쓰기 OK
+        box.set(animal); // 쓰기 OK
         System.out.println("  박스에 추가됨: " + animal.getName());
-        Object obj = box.get(); // ✅ 읽기 OK (Object로만 가능)
+        Object obj = box.get(); // 읽기 OK (Object로만 가능)
     }
 
     // 제네릭 메서드 - 타입을 그대로 반환 → 컴파일 시 타입 안전성 보장

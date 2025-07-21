@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/CollectionsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/map/MapMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/AnimalHospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/AnimalHospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/WildCardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/WildCardMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +63,7 @@
     "Application.DoWhile.executor": "Run",
     "Application.ElseIf.executor": "Run",
     "Application.Escape.executor": "Run",
+    "Application.ExampleMain.executor": "Run",
     "Application.ExceptionMain.executor": "Run",
     "Application.For.executor": "Run",
     "Application.GoodMain.executor": "Run",
@@ -206,7 +210,7 @@
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
       <workItem from="1752190310360" duration="51376000" />
-      <workItem from="1752678207213" duration="40051000" />
+      <workItem from="1752678207213" duration="41767000" />
     </task>
     <servers />
   </component>
