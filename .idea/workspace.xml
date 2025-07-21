@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/CheckedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/ExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/InvalidEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/MyCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/MyUnCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_37_Exception/UncheckedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/BoxMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/AnimalHospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/list/ArrayListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/list/LinkedListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/list/ListMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/list/ListMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/set/HashCodeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/set/HashUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/set/SetMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/WildCardMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/TypeErasureMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +69,11 @@
     "Application.ExceptionMain.executor": "Run",
     "Application.For.executor": "Run",
     "Application.GoodMain.executor": "Run",
+    "Application.HashCodeMain.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.If.executor": "Run",
     "Application.Inventory.executor": "Run",
+    "Application.ListMain2.executor": "Run",
     "Application.LogMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberMain.executor": "Run",
@@ -118,11 +111,13 @@
     "Application.Switch.executor": "Run",
     "Application.Switch2.executor": "Run",
     "Application.TypeCasting.executor": "Run",
+    "Application.TypeErasureMain.executor": "Run",
     "Application.UncheckedMain.executor": "Run",
     "Application.UserMain.executor": "Run",
     "Application.WaterBottleMain.executor": "Run",
     "Application.WeekDiscount.executor": "Run",
     "Application.While.executor": "Run",
+    "Application.WildCardMain.executor": "Run",
     "Application._01_Email.executor": "Run",
     "Application.com.study._23_OOP2.Main.executor": "Run",
     "Application.com.study._24_Inheritance.Main.executor": "Run",
@@ -217,7 +212,7 @@
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
       <workItem from="1752190310360" duration="51376000" />
-      <workItem from="1752678207213" duration="30382000" />
+      <workItem from="1752678207213" duration="39625000" />
     </task>
     <servers />
   </component>
