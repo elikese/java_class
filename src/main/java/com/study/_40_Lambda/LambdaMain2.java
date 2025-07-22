@@ -61,31 +61,35 @@ public class LambdaMain2 {
         printer.accept("Hello Consumer!");
         numberProcessor.accept(7);
 
-        // Consumer 체이닝 - andThen으로 연결
-        Consumer<String> logger = msg -> System.out.println("[로그] " + msg);
-        Consumer<String> combined = printer.andThen(logger);
-        combined.accept("체이닝 테스트");
-
         /*
          * Supplier<T>의 시그니처: T get()
          * - 입력: 없음
          * - 출력: T 타입 1개
-         * - 용도: 객체 생성, 값 생성, 팩토리 패턴 등
+         * - 용도: 객체 생성, 값 생성
          */
 
-        Supplier<String> randomMessage = () -> "랜덤 메시지: " + Math.random();
-        Supplier<Integer> dice = () -> (int)(Math.random() * 6) + 1;
+        Supplier<String> anyWord = () -> "아무말";
+        Supplier<Integer> anyNum = () -> 10;
+        Supplier<Person> anyPerson = () -> new Person("김자바");
 
-        System.out.println(randomMessage.get());
-        System.out.println("주사위 값: " + dice.get());
 
+        System.out.println(anyWord.get());
+        System.out.println(anyNum.get());
+        System.out.println(anyPerson.get());
+
+
+        /*
+         * Predicate<T>의 시그니처: boolean test(T t)
+         * - 입력: T 타입 1개
+         * - 출력: boolean
+         * - 용도: 조건 검사, 필터링, 유효성 검증 등
+         */
         Predicate<Integer> isEven = num -> num % 2 == 0;
         Predicate<String> isLongString = str -> str.length() > 5;
 
         System.out.println("8은 짝수? " + isEven.test(8));
         System.out.println("7은 짝수? " + isEven.test(7));
-        System.out.println("'Lambda'는 긴 문자열? " + isLongString.test("Lambda"));
-
+        System.out.println("Lambda는 5이상? " + isLongString.test("Lambda"));
 
     }
 }
