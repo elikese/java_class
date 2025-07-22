@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/LambdaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/LambdaMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/MethodReferMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/StringChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/StringProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/AnimalHospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/AnimalHospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/WildCardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/wildcard/WildCardMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/CollectionsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/CollectionsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/map/MapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/map/MapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/set/HashCodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/set/HashUserMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/set/SetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_39_Collections/set/SetMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -68,9 +75,11 @@
     "Application.For.executor": "Run",
     "Application.GoodMain.executor": "Run",
     "Application.HashCodeMain.executor": "Run",
+    "Application.HashUserMain.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.If.executor": "Run",
     "Application.Inventory.executor": "Run",
+    "Application.LambdaMain2.executor": "Run",
     "Application.ListMain2.executor": "Run",
     "Application.LogMain.executor": "Run",
     "Application.Main.executor": "Run",
@@ -128,6 +137,7 @@
     "Application.com.study._33_Factory.Main.executor": "Run",
     "Application.com.study._36_Enum.Main.executor": "Run",
     "Application.com.study._37_Exception.Main.executor": "Run",
+    "Application.com.study._40_Lambda.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -210,7 +220,7 @@
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
       <workItem from="1752190310360" duration="51376000" />
-      <workItem from="1752678207213" duration="41767000" />
+      <workItem from="1752678207213" duration="50366000" />
     </task>
     <servers />
   </component>

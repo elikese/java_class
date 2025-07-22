@@ -3,7 +3,7 @@ package com.study._39_Collections.set;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HashCodeMain {
+public class HashUserMain {
     public static void main(String[] args) {
         Set<HashUser> set = new HashSet<>();
 
@@ -17,6 +17,9 @@ public class HashCodeMain {
          * [설명]
          * 같은 내용의 객체라도 equals()와 hashCode()가 없으면
          * HashSet은 "다른 객체"라고 판단함 → 중복 제거 실패
+         *
+         * hashCode()가 같으면 -> 그다음 equals() 비교 수행
+         * equals()가 true면 같은 객체로 판단하여 중복 제거
          *
          * equals()와 hashCode()를 제대로 구현해야만
          * 논리적으로 같은 객체로 인식됨 → 중복 제거 성공

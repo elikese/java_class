@@ -25,25 +25,7 @@ public class MapMain {
      *    - 실제로 HashSet은 내부적으로 HashMap을 사용
      *    - Map에서 Value만 제거하면 Set이 됨
      *
-     * 4. 주요 구현체
-     *      1. HashMap (가장 많이 사용)
-     *          - 해시 테이블 기반
-     *          - 순서 보장 안함
-     *          - 빠른 성능 (O(1))
-     *          - null 키/값 허용
-     *
-     *      2. LinkedHashMap
-     *          - HashMap + 입력 순서 유지
-     *          - 약간의 성능 오버헤드
-     *          - 순서가 중요할 때 사용
-     *
-     *      3. TreeMap
-     *          - 키 기준 정렬 유지
-     *          - Red-Black Tree 기반
-     *          - 검색 O(log n)
-     *          - null 키 불허용
-     *
-     * 5. Map 주요 메서드
+     * 4. Map 주요 메서드
      *    - put(key, value): 키-값 쌍 저장
      *    - get(key): 키로 값 조회
      *    - remove(key): 키로 삭제
@@ -154,13 +136,5 @@ public class MapMain {
             System.out.println("  '" + entry.getKey() + "': " + entry.getValue() + "번");
         }
 
-        System.out.println();
-        System.out.println("--- 정리 ---");
-        System.out.println("Map의 특징:");
-        System.out.println("1. 키-값 쌍 저장 (키는 유일, 값은 중복 가능)");
-        System.out.println("2. 키를 통한 빠른 검색 (O(1))");
-        System.out.println("3. Map 인터페이스로 사용 권장 (다형성)");
-        System.out.println("4. 순회는 entrySet() 사용 권장");
-        System.out.println("5. getOrDefault(), putIfAbsent() 등 편의 메서드 활용");
     }
 }
