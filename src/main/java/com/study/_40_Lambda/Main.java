@@ -36,5 +36,17 @@ public class Main {
         System.out.println("긴 이름들: " + longNames);
 
 
+        List<String> inputs = List.of("hello", "", "world", "", "java", "");
+        List<String> notEmpty = new ArrayList<>();
+
+        // TODO: 빈 문자열이 아닌지 확인하는 StringChecker를 만드세요
+        StringChecker isNotEmpty = s -> !s.isEmpty();
+
+        for(String input : inputs) {
+            if(isNotEmpty.check(input)) {
+                notEmpty.add(input);
+            }
+        }
+
     }
 }

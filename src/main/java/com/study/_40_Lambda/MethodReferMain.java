@@ -10,17 +10,16 @@ public class MethodReferMain {
          *
          * 람다도 충분히 간결하지만, 한 가지 아쉬운 점:
          * - 기존에 만들어진 메서드를 단순히 호출하기만 하는 람다들
-         * - 예: str -> str.length(), Math::max 등
+         * - 예: str -> str.length()
          *
          * 해결책: 메서드 참조 (::)
          * - 람다가 단순히 메서드 호출만 할 때 더 간결하게 표현
          * - "이미 있는 메서드를 그대로 써라"는 의미
          *
-         * 4가지 유형 (반드시 기억!):
+         * 3가지 유형 (반드시 기억!):
          * 1. 정적 메서드 참조: 클래스명::정적메서드명
          * 2. 특정 객체의 인스턴스 메서드 참조: 객체명::메서드명
-         * 3. 생성자 참조: 클래스명::new
-         * 4. 임의 객체의 인스턴스 메서드 참조: 클래스명::인스턴스메서드명
+         * 3. 임의 객체의 인스턴스 메서드 참조: 클래스명::인스턴스메서드명
          */
 
         System.out.println("=== 메서드 참조: 람다의 최종 진화 ===");
@@ -33,7 +32,6 @@ public class MethodReferMain {
          * 클래스명::정적메서드명
          *
          * 람다와 비교:
-         * (a, b) -> Math.max(a, b)  →  Math::max
          * str -> Integer.parseInt(str)  →  Integer::parseInt
          */
 
@@ -45,8 +43,8 @@ public class MethodReferMain {
         Function<String, Integer> parseIntMethodRef = Integer::parseInt;
         Supplier<String> greetingMethodRef = Person::greeting;
 
-        System.out.println("람다 파싱: " + parseIntLambda.apply("42"));
-        System.out.println("메서드참조 파싱: " + parseIntMethodRef.apply("42"));
+        System.out.println("람다 파싱: " + parseIntLambda.apply("100"));
+        System.out.println("메서드참조 파싱: " + parseIntMethodRef.apply("100"));
         System.out.println("람다 인사: " + greetingLambda.get());
         System.out.println("메서드참조 인사: " + greetingMethodRef.get());
 
@@ -62,48 +60,19 @@ public class MethodReferMain {
          */
 
         Person kim = new Person("김자바");
-        String message = "Hello Method Reference";
+        String message = "Hello World";
 
         // 람다 방식
         Supplier<String> getNameLambda = () -> kim.getName();
-        Supplier<String> getMessageLengthLambda = () -> String.valueOf(message.length());
 
         // 메서드 참조 방식
         Supplier<String> getNameMethodRef = kim::getName;
-        Function<String, Boolean> containsMethodRef = message::contains;
+        Function<String, Boolean> isContains2 = message::contains;
 
         System.out.println("람다로 이름 가져오기: " + getNameLambda.get());
         System.out.println("메서드참조로 이름 가져오기: " + getNameMethodRef.get());
-        System.out.println("문자열에 'Method' 포함? " + containsMethodRef.apply("Method"));
+        System.out.println("문자열에 'Method' 포함? " + isContains2.apply("World"));
 
-        // 유형 3: 생성자 참조 - 객체 생성의 간소화
-        System.out.println("\n--- 3. 생성자 참조 ---");
-
-        /*
-         * 생성자 참조 패턴:
-         * 클래스명::new
-         *
-         * 매개변수에 따라 어떤 생성자가 호출될지 자동 결정
-         * 람다와 비교: () -> new Person()  →  Person::new
-         */
-
-        // 람다 방식
-        Supplier<Person> personCreatorLambda = () -> new Person();
-        Function<String, Person> personWithNameLambda = name -> new Person(name);
-
-        // 메서드 참조 방식
-        Supplier<Person> personCreatorMethodRef = Person::new;
-        Function<String, Person> personWithNameMethodRef = Person::new;
-
-        Person person1 = personCreatorLambda.get();
-        Person person2 = personCreatorMethodRef.get();
-        Person person3 = personWithNameLambda.apply("이람다");
-        Person person4 = personWithNameMethodRef.apply("박메서드");
-
-        System.out.println("람다로 생성: " + person1);
-        System.out.println("메서드참조로 생성: " + person2);
-        System.out.println("람다로 이름과 함께 생성: " + person3);
-        System.out.println("메서드참조로 이름과 함께 생성: " + person4);
 
         // 유형 4: 임의 객체의 인스턴스 메서드 참조 - 가장 헷갈리는 부분!
         System.out.println("\n--- 4. 임의 객체의 인스턴스 메서드 참조 (중요!) ---");

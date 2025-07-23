@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_41_StreamApi/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_41_StreamApi/OperationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_41_StreamApi/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_41_StreamApi/ProductMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_41_StreamApi/StreamMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/LambdaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/LambdaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/MethodReferMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_40_Lambda/MethodReferMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +81,7 @@
     "Application.Main.executor": "Run",
     "Application.MemberMain.executor": "Run",
     "Application.Method1.executor": "Run",
+    "Application.MethodReferMain.executor": "Run",
     "Application.MonthlySales.executor": "Run",
     "Application.MultiArray.executor": "Run",
     "Application.MultiArrayLoop.executor": "Run",
@@ -83,6 +90,7 @@
     "Application.NumberTicketMain.executor": "Run",
     "Application.OOPMain2.executor": "Run",
     "Application.ObjectMain.executor": "Run",
+    "Application.OperationMain.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.Operator2.executor": "Run",
     "Application.Operator3.executor": "Run",
@@ -103,6 +111,7 @@
     "Application.Scope2.executor": "Run",
     "Application.SpeakerMain.executor": "Run",
     "Application.StaticMain.executor": "Run",
+    "Application.StreamMain.executor": "Run",
     "Application.StringMethod.executor": "Run",
     "Application.StudentScore.executor": "Run",
     "Application.Switch.executor": "Run",
@@ -128,6 +137,7 @@
     "Application.com.study._36_Enum.Main.executor": "Run",
     "Application.com.study._37_Exception.Main.executor": "Run",
     "Application.com.study._40_Lambda.Main.executor": "Run",
+    "Application.com.study._41_StreamApi.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -210,7 +220,7 @@
       <workItem from="1752148693374" duration="11404000" />
       <workItem from="1752188881574" duration="331000" />
       <workItem from="1752190310360" duration="51376000" />
-      <workItem from="1752678207213" duration="52125000" />
+      <workItem from="1752678207213" duration="58665000" />
     </task>
     <servers />
   </component>
