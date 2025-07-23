@@ -59,7 +59,7 @@ public class MethodReferMain {
          * 람다와 비교: () -> person.getName()  →  person::getName
          */
 
-        Person kim = new Person("김자바");
+        Person kim = new Person("김자바", 20);
         String message = "Hello World";
 
         // 람다 방식
@@ -107,9 +107,9 @@ public class MethodReferMain {
 
         // Person 클래스의 메서드들로 더 복잡한 예시
         Person[] people = {
-                new Person("김자바"),
-                new Person("이파이썬"),
-                new Person("박자바스크립트")
+                new Person("김자바", 20),
+                new Person("이파이썬", 20),
+                new Person("박자바스크립트", 20)
         };
 
         // 람다 방식

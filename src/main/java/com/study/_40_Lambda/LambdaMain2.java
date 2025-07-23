@@ -70,7 +70,7 @@ public class LambdaMain2 {
 
         Supplier<String> anyWord = () -> "아무말";
         Supplier<Integer> anyNum = () -> 10;
-        Supplier<Person> anyPerson = () -> new Person("김자바");
+        Supplier<Person> anyPerson = () -> new Person("김자바", 20);
 
 
         System.out.println(anyWord.get());
