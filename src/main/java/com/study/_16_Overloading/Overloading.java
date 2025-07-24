@@ -16,22 +16,22 @@ public class Overloading {
     public static void printAddNum(int a, int b) {
         System.out.println(a + "+" + b + "=" + (a+b));
     }
-    // 시그니처: Overloading class의 printAddNum 함수(1: int, 2: int)
+    // 시그니처: printAddNum 함수(1: int, 2: int)
 
     public static void printAddNum(int a, double b) {
         System.out.println(a + "+" + b + "=" + ((double)a+b));
     }
-    // 시그니처: Overloading class의 printAddNum 함수(1: int, 2: double)
+    // 시그니처: printAddNum 함수(1: int, 2: double)
 
     public static void printAddNum(double a, int b) {
         System.out.println(a + "+" + b + "=" + (a+(double)b));
     }
-    // 시그니처: Overloading class의 printAddNum 함수(1: double, 2: int)
+    // 시그니처: printAddNum 함수(1: double, 2: int)
 
     public static void printAddNum(double a, double b) {
         System.out.println(a + "+" + b + "=" + (a+b));
     }
-    // 시그니처: Overloading class의 printAddNum 함수(1: double, 2: double)
+    // 시그니처: printAddNum 함수(1: double, 2: double)
 
 //    public static void printNum(int a) {
 //        System.out.println("넘어온 값 : " + a);
