@@ -9,10 +9,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("=== 문자열 Stream 처리 예제 ===");
 
-        List<String> customerNames = Arrays.asList(
-                "김자바", "이파이썬", "박자바스크립트", "최스프링", "김리액트",
-                "정코틀린", "한스위프트", "김자바", "이노드", "홍길동"
-        );
+        List<String> customerNames = List.of
+                ("김자바", "이파이썬", "박스프링", "최코틀린", "김자바", "정리액트");
 
         System.out.println("원본 직원 목록: " + customerNames);
 

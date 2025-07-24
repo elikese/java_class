@@ -5,9 +5,10 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Product {
+public class Student {
     private String name;
-    private String brand;
-    private int price;
-
+    private String major;
+    private int score;
+    private String phoneNumber;
+    private String email;
 }
