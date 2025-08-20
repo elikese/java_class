@@ -6,17 +6,15 @@ import java.util.Scanner;
 
 
 public class GoodMain {
-    public static final String CARD_PAYMENT = "CARD";
-    public static final String CASH_PAYMENT = "CASH";
-    public static final String KAKAO_PAYMENT = "KAKAO";
+
 
     private static PaymentMethod getPaymentMethod(String choice) {
         switch (choice.toUpperCase()) {
-            case CARD_PAYMENT:
+            case PaymentMethod.CARD_PAYMENT:
                 return new CardPayment("9876543210123456", "김철수");
-            case CASH_PAYMENT:
+            case PaymentMethod.CASH_PAYMENT:
                 return new CashPayment();
-            case KAKAO_PAYMENT:
+            case PaymentMethod.KAKAO_PAYMENT:
                 return new KakaoPayment("010-9876-5432");
             default:
                 return new CashPayment();  // 기본값은 현금

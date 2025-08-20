@@ -13,4 +13,8 @@ public interface PaymentMethod {
      * - 로그, 영수증 등에서 사용
      */
     String getPaymentName();
+
+    public static final String CARD_PAYMENT = "CARD";
+    public static final String CASH_PAYMENT = "CASH";
+    public static final String KAKAO_PAYMENT = "KAKAO";
 }

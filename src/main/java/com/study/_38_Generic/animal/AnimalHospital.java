@@ -9,7 +9,6 @@ public class AnimalHospital<T extends Animal> {
      * - 이를 통해 Animal의 메서드들(getName, getSize, sound)을 사용할 수 있음
      * - 타입 안전성 보장: Animal 계열이 아닌 타입은 사용 불가
      */
-
     private T animal;
 
     /**
