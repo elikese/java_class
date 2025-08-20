@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b6d5d4-101e-426b-b970-30dc9040b5a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/GoodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/GoodMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_28_OOP3/refactor/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/_36_Enum/PaymentMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_36_Enum/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_36_Enum/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/AnimalHospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/_38_Generic/animal/AnimalHospital.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -227,7 +224,7 @@
       <workItem from="1754888333112" duration="2376000" />
       <workItem from="1755147475000" duration="1130000" />
       <workItem from="1755492152309" duration="6614000" />
-      <workItem from="1755667191336" duration="260000" />
+      <workItem from="1755667191336" duration="360000" />
     </task>
     <servers />
   </component>
